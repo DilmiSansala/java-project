@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/*Navigation bar Order page*/
+.Ordercontainer {
+    max-width: 600px;
+    width:700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #006e8d;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.Ordercontainer h1 {
+    text-align: center;
+}
+
+.Ordercontainer .form-group {
+    margin-bottom: 15px;
+    width:95%;
+}
+
+.Ordercontainer label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.Ordercontainer input[type="text"],
+input[type="number"],select,
+textarea, input[type="date"] {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.Ordercontainer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Ordercontainer button:hover {
+    background-color: #0056b3;
+}
+
+.Ordercontainer #message {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
